@@ -42,14 +42,14 @@ Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.pr
 
 ## Screenshots
 
-Welcome Page
+**Welcome Page**
 
 ![Welcome Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/welcome-page.png)
 
-Select Album Page
+**Select Album Page**
 
 ![Select Album Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/select-album-page.png)
 
-View Album Page
+**View Album Page**
 
 ![View Album Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/view-album-page.png)
