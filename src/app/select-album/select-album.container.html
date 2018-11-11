@@ -1,0 +1,16 @@
+<breadcrumbs
+  [breadcrumbs]="breadcrumbs">
+</breadcrumbs>
+<br/>
+<div class="select-album">
+  <h3>Please pick your favourite photo album from the list below:</h3>
+  <form #form="ngForm" (ngSubmit)="selectAlbum(form)">
+    <div class="form-group">
+      <select class="form-control" id="albums" name="albumId" [(ngModel)]="selectedAlbum" required>
+        <option *ngFor="let albumId of (albumIds$ | async)" [value]="albumId">{{ albumId }}</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>

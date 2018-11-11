@@ -1,0 +1,17 @@
+.breadcrumbs {
+  list-style: none;
+  float: left;
+
+  li {
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAALBAMAAACufOGlAAAAElBMVEWytbe0t7m+wcO+wcMAAAC+wcPAbOgBAAAABXRSTlPu26BgABhfd1AAAAApSURBVAgdYxB2cWFQNXFhcAp2YXBRNWFwcQpmcHFhhdBAPkgcJA9UBwCnGweczi1blAAAAABJRU5ErkJggg==');
+    background-repeat: no-repeat;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+}

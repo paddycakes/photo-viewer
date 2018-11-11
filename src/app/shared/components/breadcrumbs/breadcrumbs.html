@@ -1,0 +1,10 @@
+<nav class="breadcrumbs">
+  <ol *ngIf="breadcrumbs.length">
+    <li *ngFor="let crumb of breadcrumbs; let last = last">
+      <a *ngIf="!last" [title]="crumb.title" [routerLink]="crumb.routerLink">
+        {{ crumb.title }}
+      </a>
+      <span *ngIf="last">{{ crumb.title }}</span>
+    </li>
+  </ol>
+</nav>
