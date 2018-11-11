@@ -40,6 +40,10 @@ Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github
 
 Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+There are currently 11 end-to-end tests implemented as seen below:
+
+![E2E Tests](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/protractor-test-output.png)
+
 ## Screenshots
 
 **Welcome Page**
