@@ -12,6 +12,7 @@ import { Photo } from '../../../core';
     <div class="photo-thumbnail-container">
       <photo-thumbnail
         *ngIf="selectedPhotoIndex !== 0"
+        data-role="previous"
         (click)="loadPrevious()"
         [photo]="photos[selectedPhotoIndex - 1]">
       </photo-thumbnail>
@@ -24,6 +25,8 @@ import { Photo } from '../../../core';
     <div class="photo-thumbnail-container">
       <photo-thumbnail
         *ngIf="selectedPhotoIndex !== (photos.length -1)"
+        id="next"
+        data-role="next"
         (click)="loadNext()"
         [photo]="photos[selectedPhotoIndex + 1]">
       </photo-thumbnail>
