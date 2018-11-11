@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 import { PhotoFullSizeComponent } from './photo-full-size.component';
 
-describe('#PhotoFullSizeComponent', () => {
+describe('PhotoFullSizeComponent', () => {
   let fixture: ComponentFixture<TestHostComponent>;
   let elment: HTMLElement;
 
@@ -23,7 +23,7 @@ describe('#PhotoFullSizeComponent', () => {
     elment = fixture.debugElement.nativeElement;
   });
 
-  it('Renders correctly and set the values inside the template', () => {
+  it('should render correctly and set the values inside the template', () => {
     expect(elment.querySelector('img').src).toEqual('http://someurl/');
     expect(elment.querySelector('p').textContent).toEqual('Mock title');
   });

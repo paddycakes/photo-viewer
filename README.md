@@ -36,6 +36,8 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
 
 Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+[Jasmine Marbles](https://github.com/ReactiveX/rxjs/blob/master/doc/marble-testing.md) has been used to test asynchronous RxJS code.
+
 ## Running end-to-end tests
 
 Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).

@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { Component } from '@angular/core';
 import { PhotoThumbnailComponent } from './photo-thumbnail.component';
 
-describe('#PhotoThumbnailComponent', () => {
+describe('PhotoThumbnailComponent', () => {
   let fixture: ComponentFixture<TestHostComponent>;
   let element: HTMLElement;
 
