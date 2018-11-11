@@ -19,11 +19,20 @@ This is a photo viewer application that provides a carrousel to visualise photos
 * Can deep-link to:
   * a particular album, eg. /albums/15
   * all photos, eg. /photos
-  This functionality is provided by the use of a Guard to ensure data is loaded for required route.
+
+## Screenshots
+
+Welcome Page
+
+![Welcome Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/welcome-page.png)
 
 ## Technical spec
 
 This project was is implemented in Angular 7.0.0 using TypeScript 3.1.1. It also uses NgRX 6.1.2 for state management.
+
+NgRX selectors provide a rich interface to shaping the underlying simple data source for a variety of aggregate operations. They also use memoisation to ensure previously computed values are returned and not recomputed on demand.
+
+Deep-linking functionality is provided by the use of a Guard to ensure data is loaded for required route.
 
 ## Development server
 
