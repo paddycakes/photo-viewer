@@ -20,12 +20,6 @@ This is a photo viewer application that provides a carrousel to visualise photos
   * a particular album, eg. /albums/15
   * all photos, eg. /photos
 
-## Screenshots
-
-Welcome Page
-
-![Welcome Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/welcome-page.png)
-
 ## Technical spec
 
 This project was is implemented in Angular 7.0.0 using TypeScript 3.1.1. It also uses NgRX 6.1.2 for state management.
@@ -46,3 +40,16 @@ Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github
 
 Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Screenshots
+
+Welcome Page
+
+![Welcome Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/welcome-page.png)
+
+Select Album Page
+
+![Select Album Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/select-album-page.png)
+
+View Album Page
+
+![View Album Page](https://github.com/paddycakes/photo-viewer/blob/master/src/assets/images/view-album-page.png)
