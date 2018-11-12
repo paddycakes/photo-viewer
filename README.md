@@ -28,7 +28,9 @@ NgRX selectors provide a rich interface to shaping the underlying simple data so
 
 Deep-linking functionality is provided by the use of a Guard to ensure data is loaded for required route.
 
-## Development server
+## Install and run server
+
+Run `npm i` to install dependencies.
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`.
 
