@@ -27,7 +27,6 @@ const getPhotosGroupedByAlbum = createSelector(
 export const getAlbumIds = createSelector(
   getPhotosGroupedByAlbum,
   albums => {
-    console.log('keys>> ' + JSON.stringify(keys(albums)));
     return keys(albums);
   }
 );
